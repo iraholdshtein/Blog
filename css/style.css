@@ -1,0 +1,114 @@
+.body {
+  position: relative;
+  min-height: 100vh;
+}
+
+
+.conteiner{
+  margin: 0;
+  background-image:url('/images/down.png');
+  box-sizing: border-box;
+  background-repeat:no-repeat ;
+  background-size: cover;
+  width: 1500px;
+  height: 1087px;
+  opacity: 1;
+}
+.header__conteiner{
+  margin: 41px auto auto 189px;
+  display:flex;
+ 
+}
+.navigation{
+  margin-top: 41px ;
+  justify-content: flex-end;
+  flex-flow: row wrap;
+}
+
+.navigationa__menu{
+  display: flex;
+  width: 680px;
+  height: 40px;
+  margin: 0 auto auto auto;
+  padding: 0;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.navigation__link{
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  color:#262626 ;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navigation__link__activ:hover{
+  text-decoration: underline overline; 
+  color: #FF6033d;
+}
+    
+.conteiner__title{
+  margin-top: 349px;
+  margin-left: 30px;
+  width: 290px;
+  height: 70px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 60px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.conteiner__subtitle{
+  margin-top: 17px;
+  font-size: 17px;
+  font-family: 'Raleway', sans-serif;
+  width: 370px;
+  margin-bottom: 20px;
+  font-weight: lighter;
+  opacity: 1;
+  line-height: 27px;
+}
+
+.button {
+ display: inline-block;
+ background:#FF6033 ; 
+ padding: 16px 26px 15px 25px;
+ font-size: 24px;
+ font-family: 'Raleway', sans-serif;
+ color: #ffffff;
+ border: none;
+}
+
+.scroll{
+  position: absolute;
+  display: block;
+  position: absolute;
+  margin: 0;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+  }
+
+.footer__conteiner{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -140px;
+  width: 1500px;
+  background: rgb(0,196,196);
+  background: linear-gradient(90deg, rgba(0,196,196,1) 0%, rgba(0,156,156,1) 100%);
+}
+
+.footer__title{
+  display: flex;
+  width: auto;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+ 
+
+
